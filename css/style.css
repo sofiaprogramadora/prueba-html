@@ -36,6 +36,32 @@ body{
 	text-align: center;
 }
 
+.image{
+	width: 60px;
+	padding-top: 70px
+}
+
+.min-text{
+	text-align: center;
+	color: #0BA100;
+	font-weight: 900;
+}
+.p-text{
+	text-align: center;
+}
+.pat{
+	padding-top: 50px;
+}
+.quote{
+	text-align: center;
+	margin-top: 50px;
+}
+.profile{
+	width: 100px;
+}
+.quote-text{
+	text-align: left;
+}
 }
 @media only screen and (max-width: 899px){
 body{
@@ -49,10 +75,9 @@ body{
 	padding-left: 0;
 }
 .navbar-brand{
-	padding-left: 50px;
+	padding-left: 0px;
 	padding-top: 0px;
 	margin-top: 0;
-	text-align: center;
 }
 .pr{
 	margin-right: 100px;
@@ -60,7 +85,7 @@ body{
 .main{
 	background-image: url('../assets/images/hero.jpg');
 	height: 1000px;
-	background-size: 100%;
+	width:  100%;
 }
 .end-text{
 	background-color: rgba(255, 255, 255, 0.5);
@@ -69,5 +94,27 @@ body{
 	padding-bottom: 20px;
 	padding-right: 50px;
 	padding-left: 50px;
+	margin-top: 874px
+}
+
+.images{
+	text-align: center;
+}
+
+.image{
+	width: 60px;
+	padding-top: 70px
+}
+
+.min-text{
+	text-align: center;
+	color: #0BA100;
+	font-weight: 900;
+}
+.p-text{
+	text-align: center;
+}
+.pat{
+	padding-top: 50px;
 }
 }
