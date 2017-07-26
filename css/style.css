@@ -1,5 +1,6 @@
 @media only screen and (min-width: 900px){
 body{
+	margin: 0;
 }
 .navbar-default{
 	background:none;
@@ -10,9 +11,11 @@ body{
 	padding-left: 0;
 }
 .navbar-brand{
-	padding-left: 0px;
-	padding-top: 0px;
-	margin-top: 0;
+	padding-left: 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.con{
+	text-align: center;
 }
 .pr{
 	margin-right: 100px;
@@ -29,7 +32,7 @@ body{
 	padding-bottom: 20px;
 	padding-right: 50px;
 	padding-left: 50px;
-	margin-top: 874px
+	margin-top: 890px;
 }
 
 .images{
@@ -62,9 +65,28 @@ body{
 .quote-text{
 	text-align: left;
 }
+.footer{
+	background-color: #1BBA00;
+	height: 150px;
+	width: 100%;
+}
+footer::after{
+	content: none;
+}
+.ta{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-size: 20px;
+}
+.ta span{
+	color: white;
+	font-size: 15px;
+}
 }
 @media only screen and (max-width: 899px){
 body{
+	margin: 0;
 }
 .navbar-default{
 	background:none;
@@ -75,26 +97,31 @@ body{
 	padding-left: 0;
 }
 .navbar-brand{
-	padding-left: 0px;
-	padding-top: 0px;
-	margin-top: 0;
+	padding-left: 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.con{
+	text-align: center;
 }
 .pr{
 	margin-right: 100px;
 }
 .main{
 	background-image: url('../assets/images/hero.jpg');
-	height: 1000px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	height: 400px;
 	width:  100%;
 }
 .end-text{
+	font-size: 15px;
 	background-color: rgba(255, 255, 255, 0.5);
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 50px;
 	padding-left: 50px;
-	margin-top: 874px
+	margin-top: 294px;
 }
 
 .images{
@@ -103,7 +130,7 @@ body{
 
 .image{
 	width: 60px;
-	padding-top: 70px
+	padding-top: 70px;
 }
 
 .min-text{
@@ -113,8 +140,127 @@ body{
 }
 .p-text{
 	text-align: center;
+	padding-left: 15px;
 }
 .pat{
 	padding-top: 50px;
+}
+.quote{
+	text-align: center;
+	margin-top: 50px;
+}
+.profile{
+	width: 100px;
+}
+.quote-text{
+	text-align: left;
+}
+.footer{
+	background-color: #1BBA00;
+	height: 150px;
+	width: 100%;
+}
+footer::after{
+	content: none;
+}
+.ta{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-size: 20px;
+}
+.ta span{
+	color: white;
+	font-size: 15px;
+}
+}
+@media only screen and (max-width: 400px){
+body{
+	margin: 0;
+}
+.navbar-default{
+	background:none;
+	border: none;
+}
+.navbar-default div{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-left: 0;
+}
+.navbar-brand{
+	padding-left: 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.con{
+	text-align: center;
+}
+.pr{
+	margin-right: 100px;
+}
+.main{
+	background-image: url('../assets/images/hero.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	height: 200px;
+	width:  100%;
+}
+.end-text{
+	font-size: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top: 70px;
+}
+
+.images{
+	text-align: center;
+}
+
+.image{
+	width: 60px;
+	padding-top: 70px;
+}
+
+.min-text{
+	text-align: center;
+	color: #0BA100;
+	font-weight: 900;
+}
+.p-text{
+	text-align: center;
+	padding-left: 15px;
+}
+.pat{
+	padding-top: 50px;
+}
+.quote{
+	text-align: center;
+	margin-top: 50px;
+}
+.profile{
+	width: 100px;
+}
+.quote-text{
+	text-align: left;
+}
+.footer{
+	background-color: #1BBA00;
+	height: 150px;
+	width: 100%;
+}
+footer::after{
+	content: none;
+}
+.ta{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-size: 20px;
+}
+.ta span{
+	color: white;
+	font-size: 15px;
 }
 }
